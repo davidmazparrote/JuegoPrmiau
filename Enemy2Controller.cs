@@ -20,8 +20,7 @@ public class Enemy2Controller : MonoBehaviour
                 
             }
 
-        void OnTriggerEnter2D(Collider2D other) {       //fuera del Update
-
+        void OnTriggerEnter2D(Collider2D other) {      
         if (other.gameObject.tag == "Destroyer")
         {
             Destroy(gameObject);
